@@ -199,13 +199,6 @@ vassal = {
 	end_date = 1446.1.1
 }
 
-#Sistan
-vassal = {
-	first = TIM
-	second = SIS
-	start_date = 1444.1.1 #1383 
-	end_date = 1449.2.1 #Khorasan
-}
 
 vassal = {
 	first = KHO
