@@ -1,7 +1,7 @@
 #452 - Badakhshan
 
-owner = TIM
-controller = TIM
+owner = AFG
+controller = AFG
 culture = afghani
 religion = sunni
 capital = "Munjan"
