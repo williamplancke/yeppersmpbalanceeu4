@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = chinese_warlord
+technology_group = chinese
+religion = confucianism
+primary_culture = chihan
+capital = 1816	#Beijing
+
+1440.1.8 = { leader = {	name = "Qi Jiguang"	type = general	fire = 3	shock = 5	manuever = 2	siege = 1	death_date = 1473.6.2 } }
+1442.7.12 = { leader = { name = "Zheng He"	type = admiral	fire = 4	shock = 4	manuever = 1	siege = 0	death_date = 1469.3.3 } }

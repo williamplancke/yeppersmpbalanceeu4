@@ -1,9 +1,10 @@
 # 2174 - Hengyang
 
-owner = MNG
-controller = MNG
+owner = CXI
+controller = CXI
 add_core = MNG
 add_core = CMI
+add_core = CXI
 culture = xiang
 religion = animism
 capital = "Hengyang"
