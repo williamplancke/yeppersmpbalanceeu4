@@ -1,7 +1,7 @@
 #691 - Jinan
 
-owner = MNG
-controller = MNG
+owner = YAN
+controller = YAN
 add_core = MNG
 culture = shandong_culture
 religion = confucianism
