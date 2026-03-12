@@ -2,6 +2,7 @@
 
 owner = NNG
 controller = NNG
+add_core = NNG
 add_core = MNG
 culture = chimin
 religion = confucianism
