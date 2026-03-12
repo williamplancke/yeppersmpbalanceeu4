@@ -6,6 +6,7 @@ latent_trade_goods = {
 
 owner = MNG
 controller = MNG
+add_core = YAN
 add_core = MNG
 culture = chihan
 religion = confucianism

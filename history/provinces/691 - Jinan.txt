@@ -2,6 +2,7 @@
 
 owner = YAN
 controller = YAN
+add_core = YAN
 add_core = MNG
 culture = shandong_culture
 religion = confucianism

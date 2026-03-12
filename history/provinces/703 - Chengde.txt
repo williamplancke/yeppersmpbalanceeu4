@@ -3,6 +3,7 @@
 owner = MNG
 controller = MNG
 add_core = MNG
+add_core = YAN
 culture = chahar
 religion = vajrayana
 capital = "Chengde"
