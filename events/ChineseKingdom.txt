@@ -1,0 +1,35 @@
+namespace = chinesekingdom
+
+country_event = {
+    id = chinesekingdom.1
+    title = chinesekingdom.1.t
+    desc = chinesekingdom.1.d
+    # picture
+    major = yes
+    trigger = {
+        OR = {
+            tag = KOR
+            tag = OIR
+            tag = MJZ
+            tag = MCH
+            tag = KHA
+            tag = ASK
+        }
+        OR = {
+            offensive_war_with = MNG
+            offensive_war_with = CSH
+            offensive_war_with = YAN
+            offensive_war_with = CDL
+            offensive_war_with = CXI
+            offensive_war_with = NNG
+            offensive_war_with = LNG
+        }
+        NOT = { is_year = 1465 }
+    }
+    option = {
+        add_country_modifier = {
+            name = early_chinese_invasion
+            duration = 3650
+        }
+    }
+}
