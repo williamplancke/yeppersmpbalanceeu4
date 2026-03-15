@@ -2,8 +2,9 @@ country_decisions = {
     ming_nation = {
         major = yes
         potential = {
-            religion = confucian
-            culture_group = chinese
+            religion = confucianism
+            culture_group = east_asian
+            NOT = { tag = MNG }
         }
         provinces_to_highlight = {
 			area = hebei_area

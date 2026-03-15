@@ -1992,7 +1992,7 @@ CHI_ideas = {
 		stability_cost_modifier = -0.10
 	}
 	yellow_river_dykes = {
-		development_cost = 0.1
+		development_cost = -0.1
 	}
 	salt_monopoly = {
 		land_forcelimit_modifier = 0.25

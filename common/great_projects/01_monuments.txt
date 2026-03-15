@@ -2759,6 +2759,7 @@ himeji_castle = {
 			prestige = 0.5		
 			spy_offence = 0.1
 			global_spy_defence = 0.2
+			allowed_samurai_fraction = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -2792,6 +2793,7 @@ himeji_castle = {
 			prestige = 0.5	
 			spy_offence = 0.15
 			global_spy_defence = 0.25
+			allowed_samurai_fraction = 0.2
 		}
 
 		#what effects happen when this tier is achieved
@@ -8805,7 +8807,7 @@ sankin_kotai_palaces = {
 		country_modifiers = {
 			war_taxes_cost_modifier = -1
 			prestige_from_land = 1
-			general_cost = -0.1
+			general_cost = -0.2
 		}
 
 		#what effects happen when this tier is achieved
