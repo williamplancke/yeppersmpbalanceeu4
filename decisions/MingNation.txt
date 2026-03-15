@@ -1,0 +1,34 @@
+country_decisions = {
+    ming_nation = {
+        major = yes
+        potential = {
+            religion = confucian
+            culture_group = chinese
+        }
+        provinces_to_highlight = {
+			area = hebei_area
+			OR = {
+				NOT = { owned_by = ROOT }
+				is_city = no
+			}
+		}
+        allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			NOT = { exists = MNG }
+			hebei_area = {
+                owned_by = ROOT
+            }
+			1816 = {
+                is_core = ROOT
+            }
+		}
+        effect = {
+            change_tag = MNG
+            if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+        }
+    }
+}

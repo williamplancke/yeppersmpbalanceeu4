@@ -18017,6 +18017,7 @@ dujiangyan = {
 		}
 		area_modifier = {
 			local_governing_cost = -0.2
+			local_manpower_modifier = 0.1
 		}
 		region_modifier = { 
 			local_monthly_devastation = -0.05
@@ -18038,6 +18039,7 @@ dujiangyan = {
 			local_development_cost_modifier = -0.1
 			allowed_num_of_buildings = 1
 			local_governing_cost = -0.4
+			local_manpower_modifier = 0.2
 		}
 		country_modifiers = {
 			global_monthly_devastation = -0.05
