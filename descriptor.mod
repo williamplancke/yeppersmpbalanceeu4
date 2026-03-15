@@ -4,4 +4,5 @@ tags={
 	"Map"
 }
 name="yeppers mp balance"
+thumbnail="thumbnail.png"
 supported_version="v1.37.5.0"
