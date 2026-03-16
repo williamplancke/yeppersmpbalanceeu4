@@ -2180,9 +2180,11 @@ TIM_ideas = {
 	}
 	the_mantle_of_the_great_khan = {
 		land_morale = 0.1
+		army_tradition_from_battle = 0.5
 	}
 	unleash_the_tiger = {
 		shock_damage = 0.1
+		cavalry_power = 0.1
 	}
 	chagatai_literature = {
 		legitimacy = 1
