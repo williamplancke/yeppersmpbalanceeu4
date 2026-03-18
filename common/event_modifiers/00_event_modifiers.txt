@@ -14177,3 +14177,17 @@ early_chinese_invasion = {
 	land_morale = -0.15
 	shock_damage_received = 0.1
 }
+mng_existential_fight = {
+	defensiveness = 0.2
+	land_morale = 0.15
+}
+mng_overmobilisation = {
+	defensiveness = 0.2
+	land_morale = 0.25
+	garrison_damage = 0.5
+	garrison_size = 0.25
+	mercenary_discipline = 0.05
+	all_power_cost = 0.05
+	development_cost = 0.1
+	build_cost = 0.1
+}

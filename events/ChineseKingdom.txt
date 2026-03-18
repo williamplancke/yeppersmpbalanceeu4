@@ -34,3 +34,43 @@ country_event = {
         }
     }
 }
+country_event = {
+    id = chinesekingdom.2
+    title = chinesekingdom.2.t
+    desc = chinesekingdom.2.d
+    picture = shinto_BATTLE_eventPicture
+    major = yes
+    trigger = {
+        tag = MNG
+        AND = {
+            NOT = {was_tag = LNG}
+            NOT = {was_tag = CDL}
+            NOT = {was_tag = NNG}
+            NOT = {was_tag = CSH}
+            NOT = {was_tag = CXI}
+            NOT = {was_tag = KOR}
+        }
+        any_country = {
+            war_with = MNG
+            army_size = MNG     
+        }
+        MNG = {
+            num_of_allies = 0
+        }
+    }
+    option = {
+        name = chinesekingdom.2.a
+        add_country_modifier = {
+            name = mng_existential_fight
+            duration = 5475
+        }
+    }
+    option = {
+        add_stability = -1
+        name = chinesekingdom.2.b
+        add_country_modifier = {
+            name = mng_overmobilisation
+            duration = 3650
+        }
+    }
+}

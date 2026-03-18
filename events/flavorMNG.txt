@@ -2464,7 +2464,6 @@ country_event = { #The Decadent State of the Ming Dynasty
 	}
 	option = {
 		name = flavor_mng.42.a 
-		
 		custom_tooltip = mng_great_autonomy_tt
 	}
 }
