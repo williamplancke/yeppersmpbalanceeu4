@@ -25,6 +25,7 @@ country_event = {
             offensive_war_with = LNG
         }
         NOT = { is_year = 1465 }
+        NOT = { has_country_modifier = early_chinese_invasion }
     }
     option = {
         name = chinesekingdom.1.a
@@ -57,6 +58,7 @@ country_event = {
         MNG = {
             num_of_allies = 0
         }
+        NOT = { has_country_flag = mng_had_existential_fight }
     }
     option = {
         name = chinesekingdom.2.a
@@ -64,13 +66,20 @@ country_event = {
             name = mng_existential_fight
             duration = 5475
         }
+        set_country_flag = mng_had_existential_fight
     }
     option = {
         add_stability = -1
+        add_inflation = 3
         name = chinesekingdom.2.b
         add_country_modifier = {
-            name = mng_overmobilisation
+            name = mng_chinese_fury
             duration = 3650
         }
+        add_country_modifier = {
+            name = mng_overmobilisation
+            duration = 9125
+        }
+        set_country_flag = mng_had_existential_fight
     }
 }

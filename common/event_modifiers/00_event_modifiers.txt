@@ -14182,12 +14182,15 @@ mng_existential_fight = {
 	land_morale = 0.15
 }
 mng_overmobilisation = {
+	all_power_cost = 0.05
+	development_cost = 0.1
+	build_cost = 0.1
+}
+mng_chinese_fury = {
 	defensiveness = 0.2
 	land_morale = 0.25
 	garrison_damage = 0.5
 	garrison_size = 0.25
 	mercenary_discipline = 0.05
-	all_power_cost = 0.05
-	development_cost = 0.1
-	build_cost = 0.1
+	own_territory_dice_roll_bonus = 1
 }
