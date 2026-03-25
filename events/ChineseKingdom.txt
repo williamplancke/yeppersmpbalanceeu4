@@ -25,12 +25,185 @@ country_event = {
             offensive_war_with = LNG
         }
         NOT = { is_year = 1465 }
+        NOT = { has_country_modifier = early_chinese_invasion }
     }
     option = {
         name = chinesekingdom.1.a
         add_country_modifier = {
             name = early_chinese_invasion
             duration = 7300
+        }
+    }
+}
+country_event = {
+    id = chinesekingdom.2
+    title = chinesekingdom.2.t
+    desc = chinesekingdom.2.d
+    picture = shinto_BATTLE_eventPicture
+    major = yes
+    trigger = {
+        tag = MNG
+        AND = {
+            NOT = {was_tag = LNG}
+            NOT = {was_tag = CDL}
+            NOT = {was_tag = NNG}
+            NOT = {was_tag = CSH}
+            NOT = {was_tag = CXI}
+            NOT = {was_tag = KOR}
+        }
+        any_country = {
+            war_with = MNG
+            army_size = MNG     
+        }
+        MNG = {
+            num_of_allies = 0
+        }
+        NOT = { has_country_flag = mng_had_existential_fight }
+    }
+    option = {
+        name = chinesekingdom.2.a
+        add_country_modifier = {
+            name = mng_existential_fight
+            duration = 5475
+        }
+        set_country_flag = mng_had_existential_fight
+    }
+    option = {
+        add_stability = -1
+        add_inflation = 3
+        name = chinesekingdom.2.b
+        add_country_modifier = {
+            name = mng_chinese_fury
+            duration = 3650
+        }
+        add_country_modifier = {
+            name = mng_overmobilisation
+            duration = 9125
+        }
+        set_country_flag = mng_had_existential_fight
+    }
+}
+country_event = {
+    id = chinesekingdom.3
+    title = chinesekingdom.3.title
+    desc = chinesekingdom.3.desc
+    picture = shinto_BATTLE_eventPicture
+    fire_only_once = yes
+    mean_time_to_happen = {
+        days = 10
+    }
+    trigger = {
+        tag = MNG
+        OR = {
+            KOR = {
+                has_opinion = {
+                    who = ROOT
+                    value = 50
+                }
+            }
+            MJZ = {
+                has_opinion = {
+                    who = ROOT
+                    value = 50
+                }
+            }
+            ASK = {
+                has_opinion = {
+                    who = ROOT
+                    value = 50
+                }
+            }
+        }
+    }
+    option = {
+        name = chinesekingdom.3.a
+        trigger = {
+            KOR = {
+                has_opinion = {
+                    who = ROOT
+                    value = 50
+                }
+            }
+        }
+        add_country_modifier = {
+            name = mng_korean_scholarship
+            duration = 10950
+        }
+    }
+    option = {
+        name = chinesekingdom.3.b
+        trigger = {
+            MJZ = {
+                has_opinion = {
+                    who = ROOT
+                    value = 50
+                }
+            }
+        }
+        define_ruler = {
+            name = "Alin"
+            dynasty = "Gioro"
+            adm = 5
+            dip = 4
+            mil = 6
+            age = 16
+            claim = 70
+        }
+        add_ruler_personality = bold_fighter_personality
+    }
+    option = {
+        name = chinesekingdom.3.c
+        trigger = {
+            ASK = {
+                has_opinion = {
+                    who = ROOT
+                    value = 50
+                }
+            }
+        }
+        add_country_modifier = {
+            name = mng_japanese_dominion
+            duration = 18250
+        }
+    }
+    option = {
+        name = chinesekingdom.3.d
+        if = {
+            limit = {
+                KOR = {
+                    has_opinion = {
+                        who = ROOT
+                        value = 50
+                    }
+                }
+            }
+            add_adm_power = 100
+        }
+        if = {
+            limit = {
+                ASK = {
+                    has_opinion = {
+                        who = ROOT
+                        value = 50
+                    }
+                }
+            }
+            add_dip_power = 100
+        }
+        if = {
+            limit = {
+                MJZ = {
+                    has_opinion = {
+                        who = ROOT
+                        value = 50
+                    }
+                }
+            }
+            add_mil_power = 100
+        }
+        add_country_modifier = {
+            name = mng_increased_conscription
+            duration = 9125
         }
     }
 }
