@@ -2366,3 +2366,8 @@
  oe_jesuit_unrest:1 "Jesuit Unrest"
  desc_oe_jesuit_unrest:1 "Jesuits in this area are upset by our government's intervention in a theological debate."
  early_chinese_invasion:0 "Early Chinese Invasion"
+ khorasani_leadership:0 "Khorasani Leadership"
+ afghan_logistics:0 "Afghan Logistics"
+ farsi_architecture:0 "Farsi Architecture"
+ sistani_exploration:0 "Sistani Exploration"
+ transoxanian_steppe_mastery:0 "Transoxanian Steppe Mastery"

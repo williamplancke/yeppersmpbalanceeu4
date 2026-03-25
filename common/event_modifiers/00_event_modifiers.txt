@@ -14177,3 +14177,26 @@ early_chinese_invasion = {
 	land_morale = -0.15
 	shock_damage_received = 0.1
 }
+
+# Timurids 
+
+khorasani_leadership = {
+	monarch_military_power = 1
+	land_morale = 0.05
+}
+afghan_logistics = {
+	land_attrition = -0.2
+	land_forcelimit = 0.1
+}
+sistani_exploration = {
+	min_autonomy = -0.15
+	colonists = 1
+}
+farsi_architecture = {
+	defensiveness = 0.3
+	build_cost = 0.1
+}
+transoxanian_steppe_mastery = {
+	movement_speed = 0.1
+	cavalry_power = 0.1
+}
